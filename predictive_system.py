@@ -11,7 +11,7 @@ import pickle
 
 # loading the saved model
 
-loaded_model = pickle.load(open('/Users/abhisheklondhe/ML_Projects/trained_model.sav','rb'))
+loaded_model = pickle.load(open('trained_model.sav','rb'))
 
 input = (0,20,193.0,86.0,11.0,92.0,40.4)
 
