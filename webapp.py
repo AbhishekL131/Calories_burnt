@@ -28,7 +28,7 @@ def prediction(input_data) :
     predict = loaded_model.predict(input)
 
 
-    return 'Calories burnt = ' + predict
+    return predict
 
 
 def main():
